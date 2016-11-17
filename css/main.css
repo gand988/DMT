@@ -113,6 +113,10 @@ header h2{
   header h2{
     font-size: 45px;
   }
+    
+  header h3{
+    font-size: 30px;
+  }
 }
 
 .btn-sign{
