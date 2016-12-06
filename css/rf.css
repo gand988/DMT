@@ -1,0 +1,60 @@
+body{
+  background: no-repeat center url("../images/chrono-map.png");
+  background-attachment: fixed;
+  background-size: cover;
+}
+#pone{
+  height: 100px;
+}
+#rf{
+  padding-bottom: 1px;
+  background-color: #fff;
+}
+#rf h1{
+  text-align: center;
+}
+#rf h1,
+#rf h2{
+  font-family: BebasNeue;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+.middle{
+  max-width: 900px; /* find a good width*/
+  margin: 0 auto;
+}
+#rf ul{
+  list-style: none;
+  padding: 0 10px;
+}
+#rf ul li{
+  padding: 5px;
+}
+#question ul li:nth-child(2n+1){
+  background-color: rgba(0,0,0,0.1);
+}
+#answare li{
+  background-color: rgba(0,0,0,0.1);
+}
+#answare li:nth-child(2n+2){
+  margin-bottom: 5px;
+}
+#rf ul li a{
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(0,0,0,0.5);
+}
+dt{
+  text-transform: capitalize;
+}
+#up{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  height: 50px;
+  width: 51px;
+  /*background: no-repeat center url("../images/upbgg.png");*/
+  /*background-color: red;*/
+}
+#up a{
+  display: block;
+}
