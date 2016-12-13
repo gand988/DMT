@@ -42,6 +42,7 @@ h1{
   background: no-repeat center url("../images/chrono-map.png");
   background-attachment: fixed;
   background-size: cover;
+  background-color: #201838;
   height: 100%;
 }
 
